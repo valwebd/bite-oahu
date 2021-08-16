@@ -1,7 +1,6 @@
 
 const data = [
   {
-    "location_id": "3364900",
     "name": "Sweet E's Cafe",
     "latitude": "21.286018",
     "longitude": "-157.81361",
@@ -36,100 +35,9 @@ const data = [
                 "height": "186"
             }
         },
-        "is_blessed": true,
-        "uploaded_date": "2012-09-22T21:58:32-0400",
-        "caption": "Stuffed French Toast",
         "id": "48578151",
-        "helpful_votes": "16",
         "published_date": "2012-09-22T21:58:32-0400",
-        "user": {
-            "user_id": null,
-            "member_id": "0",
-            "type": "user"
-        }
     },
-    "awards": [
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2021",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2021_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2021"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2020",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2020_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2020"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2019",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2019_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2019"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2018",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2018_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2018"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2017",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2017_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2017"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2016",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2016_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2016"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2015",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2015_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2015"
-        },
-        {
-            "award_type": "CERTIFICATE_OF_EXCELLENCE",
-            "year": "2014",
-            "images": {
-                "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_small-0-5.jpg",
-                "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/CERTIFICATE_OF_EXCELLENCE_2014_en_US_large-0-5.jpg"
-            },
-            "categories": [],
-            "display_name": "Certificate of Excellence 2014"
-        }
-    ],
     "doubleclick_zone": "na.us.hi.oahu.honolulu",
     "preferred_map_engine": "default",
     "raw_ranking": "4.678958415985107",
@@ -319,10 +227,10 @@ const data = [
 }
 ]
 
-const getPlacesData = new Promise((resolve, reject) => {
-  
-    resolve(data)
-  
-});
+// const getPlacesData = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve(data);
+//   }, 300);
+// });
 
 export default data

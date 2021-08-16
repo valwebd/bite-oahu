@@ -23,7 +23,7 @@ const PlaceDetails = ({ place }) => {
   return (
     <Card>
       <CardMedia
-        style={{ height: 350 }}
+        style={{ height: 250 }}
         image={
           place.photo
             ? place.photo.images.large.url

@@ -6,8 +6,8 @@ import { CssBaseline, Grid } from '@material-ui/core';
 import Header from './components/Header/Header';
 import List from './components/List/List'
 import Map from './components/Map/Map'
-import getPlacesData from './api/index';
-// import getPlacesData from './api/data';
+// import getPlacesData from './api/index';
+import data from './api/data';
 
 
 function App() {
@@ -16,12 +16,13 @@ function App() {
 
 
   useEffect(() => {
-    setIsLoading(true)
-    getPlacesData().then((data) => {
-      console.log(data);
-      setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
-      setIsLoading(false);
-    });
+    // setIsLoading(true)
+    // getPlacesData().then((data) => {
+    //   console.log(data);
+    //   setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
+    //   setIsLoading(false);
+    // });
+    setPlaces(data)
   }, []);
   return (
     <>
