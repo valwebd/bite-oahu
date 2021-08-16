@@ -16,13 +16,14 @@ function App() {
 
 
   useEffect(() => {
-    // setIsLoading(true)
+    setIsLoading(true)
     // getPlacesData().then((data) => {
     //   console.log(data);
     //   setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
     //   setIsLoading(false);
     // });
-    setPlaces(data)
+    setPlaces(data);
+    setIsLoading(false);
   }, []);
   return (
     <>

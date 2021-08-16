@@ -9,12 +9,9 @@ import {
   CardMedia,
   CardContent,
   CardActions,
-  Chip,
 } from '@material-ui/core';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
-import Rating from '@material-ui/lab/Rating';
-
 
 
 const PlaceDetails = ({ place }) => {
@@ -23,7 +20,7 @@ const PlaceDetails = ({ place }) => {
   return (
     <Card>
       <CardMedia
-        style={{ height: 250 }}
+        style={{ height: 350 }}
         image={
           place.photo
             ? place.photo.images.large.url
@@ -36,18 +33,22 @@ const PlaceDetails = ({ place }) => {
           variant='h5'>
           {place.name}
         </Typography>
+        <Typography
+          variant='h7'>
+          {place.description}
+        </Typography>
         <Box display='flex' justifyContent='space-between'>
-          <Rating value={Number(place.rating)} readOnly />
+          {/* <Rating value={Number(place.rating)} readOnly /> */}
 
           <Typography
             
             variant='subtitle1'>
-            out of {place.num_reviews} reviews
+             {/* {place.num_reviews} reviews */}
           </Typography>
         </Box>
-        {place?.cuisine?.map(({ name }) => (
+        {/* {place?.cuisine?.map(({ name }) => (
           <Chip key={name} size="small" label={name} className={classes.chip} />
-        ))}
+        ))} */}
         {place?.address && (
           <Typography
             
