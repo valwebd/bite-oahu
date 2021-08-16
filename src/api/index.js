@@ -31,3 +31,5 @@ const getPlacesData = async () => {
 };
 
 export default getPlacesData;
+
+

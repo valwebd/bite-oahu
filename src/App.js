@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import './App.css';
 import { CssBaseline, Grid } from '@material-ui/core';
 
@@ -8,6 +7,7 @@ import Header from './components/Header/Header';
 import List from './components/List/List'
 import Map from './components/Map/Map'
 import getPlacesData from './api/index';
+// import getPlacesData from './api/data';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     setIsLoading(true)
     getPlacesData().then((data) => {
       console.log(data);
-      setPlaces(data);
+      setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
       setIsLoading(false);
     });
   }, []);
