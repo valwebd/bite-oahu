@@ -3,19 +3,21 @@ import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import {
   CircularProgress,
   Grid,
-  Typography,
-  InputLabel,
-  MenuItem,
-  FormControl,
-  Select,
 } from '@material-ui/core';
 import useStyles from './styles';
 
 
-const List = ({places}) => {
+const List = ({places, isLoading}) => {
   const classes = useStyles();
 
   return (
+  <>
+    {
+      isLoading ? (
+      <div className = { classes.loading } >
+        <CircularProgress size="5rem" />
+      </div >) : (
+      <>
     <div className={classes.container}>
       <Grid container spacing={3} className={classes.list}>
         {places?.map((place, i) => (
@@ -24,7 +26,10 @@ const List = ({places}) => {
           </Grid>
         ))}
       </Grid>
-    </div>
+        </div>
+        </>
+        )}
+      </>
   )
 }
 
