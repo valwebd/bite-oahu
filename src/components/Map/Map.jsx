@@ -1,12 +1,15 @@
 import React from 'react'
 import useStyles from './styles'
 import { Paper, Typography, useMediaQuery } from '@material-ui/core';
+import Marker from '../Marker/Marker'
 import GoogleMapReact from 'google-map-react';
+
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import Rating from '@material-ui/lab/Rating';
 
-const Map = ({places}) => {
-  const coords = { lat: 21.4334752, lng: -158.0332296 }
+
+const Map = ({places, setMarkerClicked}) => {
+  const coords = { lat: 21.355959 , lng: -157.788222 }
   const isDesktop = useMediaQuery('(min-width:600px)');
   const classes=useStyles()
   return (
@@ -15,41 +18,28 @@ const Map = ({places}) => {
         bootstrapURLKeys={{key:'AIzaSyBMKGLmZItUaWrg35L4whEeU61fEK095I0'}}
         defaultCenter={coords}
         center={coords}
-        defaultZoom={10}
-        margin={[50, 50, 50, 50]}
-        >
-          {places?.map((place, i) => (
-          <div
+        defaultZoom={11}
+        options={{ disableDefaultUI: true, zoomControl: true}}
+        hoverDistance={20}
+        margin={[ 50, 50, 50, 50 ]}
+        
+      >
+        
+          {places?.map((place) => (
+            <Marker
+              setMarkerClicked={setMarkerClicked}
+              place={place}
+              onClick={() => console.log('click')}
             className={classes.markerContainer}
             lat={Number(place.latitude)}
             lng={Number(place.longitude)}
-            key={i}
+            key={place.location_id}
+            text={place.name}
+            
           >
-            {!isDesktop ? (
-              <LocationOnOutlinedIcon color='primary' fontSize='large' />
-            ) : (
-              <Paper elevation={3} className={classes.paper}>
-                <Typography
-                  className={classes.typography}
-                  variant='subtitle2'
-                  gutterBottom
-                >
-                  {place.name}
-                </Typography>
-                <img
-                  className={classes.pointer}
-                  src={
-                    place.photo
-                      ? place.photo.images.large.url
-                      : 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80'
-                  }
-                  alt={place.name}
-                />
-                <Rating size='small' value={Number(place.rating)} readOnly />
-              </Paper>
-            )}
-          </div>
-        ))}
+           
+          </Marker>
+         ))} 
         </GoogleMapReact>
     </div>
   )

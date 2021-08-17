@@ -3,9 +3,9 @@ const kahalaHotel = {
 
   "name": 'The Kahala Hotel & Resort',
 
-  "latitude": "21.271444",
+  "latitude": "21.2839156",
 
-  "longitude": "-157.77376",
+  "longitude": "-157.7738378",
 
   "photo": {
       "images": {

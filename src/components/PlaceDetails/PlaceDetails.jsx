@@ -14,7 +14,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
 
 
-const PlaceDetails = ({ place }) => {
+const PlaceDetails = ({ place, markerClicked }) => {
   const classes = useStyles();
   
   return (
@@ -34,7 +34,7 @@ const PlaceDetails = ({ place }) => {
           {place.name}
         </Typography>
         <Typography
-          variant='h7'>
+          variant='subtitle1'>
           {place.description}
         </Typography>
         <Box display='flex' justifyContent='space-between'>

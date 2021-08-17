@@ -12,8 +12,8 @@ import data from './api/data';
 
 function App() {
   const [ places, setPlaces ] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-
+  const [ isLoading, setIsLoading ] = useState(false);
+  const [markerClicked, setMarkerClicked] = useState(null)
 
   useEffect(() => {
     setIsLoading(true)
@@ -31,10 +31,10 @@ function App() {
     <Header/>
     <Grid container spacing={3} style={{ width: '100%' }}>
         <Grid item xs={12} md={4}>
-          <List isLoading={isLoading} places={places}/>
+          <List markerClicked={markerClicked} isLoading={isLoading} places={places}/>
         </Grid>
         <Grid item xs={12} md={8}>
-          <Map places={places} />
+          <Map setMarkerClicked={setMarkerClicked} places={places} />
         </Grid>
       </Grid>
     </>
