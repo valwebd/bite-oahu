@@ -1,77 +1,79 @@
 const tchinTchin = {
-  "location_id": "10036897",
+  id: '14',
 
-  "name": "The Tchin Tchin Bar",
+  location_id: '10036897',
 
-  "latitude": "21.311468",
+  name: 'The Tchin Tchin Bar',
 
-  "longitude": "-157.86264",
+  latitude: '21.311468',
 
-  "photo": {
-      "images": {
-        "small": {
-            "width": "150",
-            "url": "https://media-cdn.tripadvisor.com/media/photo-l/0a/cc/2a/d3/pickled-vegetables.jpg",
-            "height": "150"
-        },
-        "thumbnail": {
-            "width": "50",
-            "url": "https://media-cdn.tripadvisor.com/media/photo-t/0a/cc/2a/d3/pickled-vegetables.jpg",
-            "height": "50"
-        },
-        "original": {
-            "width": "2000",
-            "url": "https://media-cdn.tripadvisor.com/media/photo-o/0a/cc/2a/d3/pickled-vegetables.jpg",
-            "height": "1333"
-        },
-        "large": {
-            "width": "1024",
-            "url": "https://media-cdn.tripadvisor.com/media/photo-w/0a/cc/2a/d3/pickled-vegetables.jpg",
-            "height": "682"
-        },
-        "medium": {
-            "width": "550",
-            "url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/cc/2a/d3/pickled-vegetables.jpg",
-            "height": "367"
-        }
+  longitude: '-157.86264',
+
+  photo: {
+    images: {
+      small: {
+        width: '150',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0a/cc/2a/d3/pickled-vegetables.jpg',
+        height: '150',
+      },
+      thumbnail: {
+        width: '50',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0a/cc/2a/d3/pickled-vegetables.jpg',
+        height: '50',
+      },
+      original: {
+        width: '2000',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0a/cc/2a/d3/pickled-vegetables.jpg',
+        height: '1333',
+      },
+      large: {
+        width: '1024',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-w/0a/cc/2a/d3/pickled-vegetables.jpg',
+        height: '682',
+      },
+      medium: {
+        width: '550',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-s/0a/cc/2a/d3/pickled-vegetables.jpg',
+        height: '367',
+      },
     },
-
   },
 
-  "description": "This is probably the most elegant bar in Chinatown. The interior is beautiful (high ceilings, red brick walls, and beautiful drapes) plus there's an outdoor rooftop space.",
+  description:
+    "This is probably the most elegant bar in Chinatown. The interior is beautiful (high ceilings, red brick walls, and beautiful drapes) plus there's an outdoor rooftop space.",
 
-  "web_url": "https://www.tripadvisor.com/Restaurant_Review-g60982-d10036897-Reviews-The_Tchin_Tchin_Bar-Honolulu_Oahu_Hawaii.html",
+  web_url:
+    'https://www.tripadvisor.com/Restaurant_Review-g60982-d10036897-Reviews-The_Tchin_Tchin_Bar-Honolulu_Oahu_Hawaii.html',
 
-  "phone": "+1 808-528-1888",
+  phone: '+1 808-528-1888',
 
-  "website": "http://www.thetchintchinbar.com",
+  website: 'http://www.thetchintchinbar.com',
 
-  "address_obj": {
-    "street1": "39 N Hotel St",
-    "street2": null,
-    "city": "Honolulu",
-    "state": "HI",
-    "country": "United States",
-    "postalcode": "96817-5103"
-},
+  address_obj: {
+    street1: '39 N Hotel St',
+    street2: null,
+    city: 'Honolulu',
+    state: 'HI',
+    country: 'United States',
+    postalcode: '96817-5103',
+  },
 
-  "address": "39 N Hotel St, Honolulu, Oahu, HI 96817-5103",
+  address: '39 N Hotel St, Honolulu, Oahu, HI 96817-5103',
 
-  "cuisine": [
+  cuisine: [
     {
-        "key": "10640",
-        "name": "Bar"
+      key: '10640',
+      name: 'Bar',
     },
     {
-        "key": "10670",
-        "name": "Pub"
+      key: '10670',
+      name: 'Pub',
     },
     {
-        "key": "10665",
-        "name": "Vegetarian Friendly"
-    }
-],
+      key: '10665',
+      name: 'Vegetarian Friendly',
+    },
+  ],
+};
 
-}
-
-export default tchinTchin
+export default tchinTchin;

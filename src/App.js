@@ -1,40 +1,42 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import { CssBaseline, Grid } from '@material-ui/core';
 
-
 import Header from './components/Header/Header';
-import List from './components/List/List'
-import Map from './components/Map/Map'
-// import getPlacesData from './api/index';
+import List from './components/List/List';
+import Map from './components/Map/Map';
 import data from './api/data';
 
-
 function App() {
-  const [ places, setPlaces ] = useState([]);
-  const [ isLoading, setIsLoading ] = useState(false);
-  const [markerClicked, setMarkerClicked] = useState(null)
+  const [places, setPlaces] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [markerClicked, setMarkerClicked] = useState(null);
 
   useEffect(() => {
-    setIsLoading(true)
+    setIsLoading(true);
+    // Use API
     // getPlacesData().then((data) => {
     //   console.log(data);
     //   setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
     //   setIsLoading(false);
     // });
+    // Use own DB
     setPlaces(data);
     setIsLoading(false);
   }, []);
   return (
     <>
-      <CssBaseline/>
-    <Header/>
-    <Grid container spacing={3} style={{ width: '100%' }}>
+      <CssBaseline />
+      <Header />
+      <Grid container spacing={3} style={{ width: '100%' }}>
         <Grid item xs={12} md={4}>
-          <List markerClicked={markerClicked} isLoading={isLoading} places={places}/>
+          <List
+            places={places}
+            isLoading={isLoading}
+            markerClicked={markerClicked}
+          />
         </Grid>
         <Grid item xs={12} md={8}>
-          <Map setMarkerClicked={setMarkerClicked} places={places} />
+          <Map places={places} setMarkerClicked={setMarkerClicked} />
         </Grid>
       </Grid>
     </>

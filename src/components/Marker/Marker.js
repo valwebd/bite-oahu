@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import useStyles from './styles'
+import useStyles from './styles';
 
-const Marker = ({place, setMarkerClicked}) => {
-  const handleMarkerClick = () => setMarkerClicked(place.location_id)
-  const classes = useStyles()
+const Marker = ({ place, setMarkerClicked }) => {
+  const handleMarkerClick = () => setMarkerClicked(Number(place.id));
+  const classes = useStyles();
   return (
-    <div className={classes.marker} >
-      <LocationOnIcon onClick={handleMarkerClick} className={classes.marker} fontSize='large'/>
+    <div className={classes.marker}>
+      <LocationOnIcon
+        onClick={handleMarkerClick}
+        className={classes.marker}
+        fontSize='large'
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Marker
+export default Marker;

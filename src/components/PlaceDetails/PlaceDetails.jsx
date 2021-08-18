@@ -1,4 +1,3 @@
-import React from 'react'
 import useStyles from './styles';
 
 import {
@@ -13,10 +12,12 @@ import {
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
 
-
-const PlaceDetails = ({ place, markerClicked }) => {
+const PlaceDetails = ({ place, refProp, selected }) => {
   const classes = useStyles();
-  
+
+  if (selected)
+    refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
   return (
     <Card>
       <CardMedia
@@ -29,29 +30,16 @@ const PlaceDetails = ({ place, markerClicked }) => {
         title={place.name}
       />
       <CardContent>
-        <Typography
-          variant='h5'>
-          {place.name}
-        </Typography>
-        <Typography
-          variant='subtitle1'>
-          {place.description}
-        </Typography>
+        <Typography variant='h5'>{place.name}</Typography>
+        <Typography variant='subtitle1'>{place.description}</Typography>
         <Box display='flex' justifyContent='space-between'>
-          {/* <Rating value={Number(place.rating)} readOnly /> */}
-
-          <Typography
-            
-            variant='subtitle1'>
-             {/* {place.num_reviews} reviews */}
-          </Typography>
+          <Typography variant='subtitle1'></Typography>
         </Box>
         {/* {place?.cuisine?.map(({ name }) => (
-          <Chip key={name} size="small" label={name} className={classes.chip} />
+          <Chip key={name} size='small' label={name} className={classes.chip} />
         ))} */}
         {place?.address && (
           <Typography
-            
             variant='body2'
             color='textSecondary'
             className={classes.subtitle}
@@ -61,7 +49,6 @@ const PlaceDetails = ({ place, markerClicked }) => {
         )}
         {place?.phone && (
           <Typography
-            
             variant='body2'
             color='textSecondary'
             className={classes.spacing}
@@ -69,7 +56,7 @@ const PlaceDetails = ({ place, markerClicked }) => {
             <PhoneIcon /> {place.phone}
           </Typography>
         )}
-         <CardActions>
+        <CardActions>
           <Button
             variant='outlined'
             size='small'
@@ -89,7 +76,7 @@ const PlaceDetails = ({ place, markerClicked }) => {
         </CardActions>
       </CardContent>
     </Card>
-  )
-}
+  );
+};
 
-export default PlaceDetails
+export default PlaceDetails;
