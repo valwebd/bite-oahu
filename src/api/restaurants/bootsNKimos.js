@@ -30,7 +30,7 @@ const bootsNKimos = {
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60652-d434197-Reviews-Boots_Kimo_s_Homestyle_Kitchen-Kailua_Oahu_Hawaii.html',
 
-  phone: '+1 808-263-7929',
+  phone: '+1-808-263-7929',
 
   website: 'https://www.bootsnkimos.com/',
 

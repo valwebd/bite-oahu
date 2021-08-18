@@ -10,6 +10,7 @@ function App() {
   const [places, setPlaces] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [markerClicked, setMarkerClicked] = useState(null);
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
     setIsLoading(true);
@@ -26,13 +27,14 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Header />
+      <Header setFilter={setFilter} />
       <Grid container spacing={3} style={{ width: '100%' }}>
         <Grid item xs={12} md={4}>
           <List
             places={places}
             isLoading={isLoading}
             markerClicked={markerClicked}
+            filter={filter}
           />
         </Grid>
         <Grid item xs={12} md={8}>
