@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { CssBaseline, Grid } from '@material-ui/core';
+import { CssBaseline, Grid, Container, useMediaQuery } from '@material-ui/core';
 
 import Header from './components/Header/Header';
 import List from './components/List/List';
@@ -11,6 +11,8 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [markerClicked, setMarkerClicked] = useState(null);
   const [filter, setFilter] = useState('');
+
+  const matches = useMediaQuery('(min-width:960px)');
 
   useEffect(() => {
     setIsLoading(true);
@@ -28,19 +30,41 @@ function App() {
     <>
       <CssBaseline />
       <Header setFilter={setFilter} />
-      <Grid container spacing={3} style={{ width: '100%' }}>
-        <Grid item xs={12} md={4}>
-          <List
-            places={places}
-            isLoading={isLoading}
-            markerClicked={markerClicked}
-            filter={filter}
-          />
-        </Grid>
-        <Grid item xs={12} md={8}>
-          <Map places={places} setMarkerClicked={setMarkerClicked} />
-        </Grid>
-      </Grid>
+      {matches ? (
+        <>
+          <Grid container spacing={3} style={{ width: '100%' }}>
+            <Grid item xs={12} md={4}>
+              <List
+                places={places}
+                isLoading={isLoading}
+                markerClicked={markerClicked}
+                filter={filter}
+              />
+            </Grid>
+            <Grid item xs={12} md={8}>
+              <Map places={places} setMarkerClicked={setMarkerClicked} />
+            </Grid>
+          </Grid>
+        </>
+      ) : (
+        <>
+          <Container>
+            <Grid container spacing={3} style={{ width: '100%' }}>
+              <Grid item xs={12} md={8}>
+                <Map places={places} setMarkerClicked={setMarkerClicked} />
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <List
+                  places={places}
+                  isLoading={isLoading}
+                  markerClicked={markerClicked}
+                  filter={filter}
+                />
+              </Grid>
+            </Grid>
+          </Container>
+        </>
+      )}
     </>
   );
 }
