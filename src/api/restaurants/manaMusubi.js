@@ -11,24 +11,9 @@ const manaMusubi = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/13/0b/e9/23/mana-bu-s.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/13/0b/e9/23/mana-bu-s.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2048',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/13/0b/e9/23/mana-bu-s.jpg',
-        height: '2048',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-p/13/0b/e9/23/mana-bu-s.jpg',
+        url: 'https://i2.wp.com/tastyislandhawaii.com/wp-content/uploads/mana_musubi_shop10.jpg',
         height: '550',
       },
       medium: {

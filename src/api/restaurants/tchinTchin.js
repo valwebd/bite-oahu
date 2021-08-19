@@ -11,24 +11,9 @@ const tchinTchin = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0a/cc/2a/d3/pickled-vegetables.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0a/cc/2a/d3/pickled-vegetables.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2000',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0a/cc/2a/d3/pickled-vegetables.jpg',
-        height: '1333',
-      },
       large: {
         width: '1024',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-w/0a/cc/2a/d3/pickled-vegetables.jpg',
+        url: 'https://hellojetlag.com/wp-content/uploads/2018/06/Chinatown-Oahu-1.jpg',
         height: '682',
       },
       medium: {

@@ -6,24 +6,9 @@ const tonkatsuGinzaBairin = {
   longitude: '-157.83107',
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0e/44/5c/01/delicious-pickled-cucumber.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0e/44/5c/01/delicious-pickled-cucumber.jpg',
-        height: '50',
-      },
-      original: {
-        width: '1536',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0e/44/5c/01/delicious-pickled-cucumber.jpg',
-        height: '2048',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-p/0e/44/5c/01/delicious-pickled-cucumber.jpg',
+        url: 'https://mail.google.com/mail/u/0?ui=2&ik=6d7d5f3d9e&attid=0.1&permmsgid=msg-a:r-7554996863600383407&th=17b5bfb552181c79&view=fimg&realattid=17b5bfb3884628533df1&disp=thd&attbid=ANGjdJ9uD_WOluv8JPfuWSHvKCzvnJoPxurmijFRQJHMC_xuNZ2TSyf-aSQIKgF-sU-qdp7YLC8hyJtNwfNMCUYhypzmQgut-q8fXD6nMnkMu4Q7uF1-nrlCRxyN-ts&ats=2524608000000&sz=w1978-h1861',
         height: '733',
       },
       medium: {

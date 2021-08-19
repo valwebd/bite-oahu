@@ -11,24 +11,9 @@ const mokuKitchen = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0d/eb/6a/01/moku-kitchen-fresh-shrimp.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0d/eb/6a/01/moku-kitchen-fresh-shrimp.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2000',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0d/eb/6a/01/moku-kitchen-fresh-shrimp.jpg',
-        height: '1500',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/0d/eb/6a/01/moku-kitchen-fresh-shrimp.jpg',
+        url: 'https://resizer.otstatic.com/v2/photos/wide-huge/1/24713499.jpg',
         height: '413',
       },
       medium: {

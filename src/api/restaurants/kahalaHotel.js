@@ -5,30 +5,15 @@ const kahalaHotel = {
 
   name: 'The Kahala Hotel & Resort',
 
-  latitude: '21.2839156',
+  latitude: '21.271888',
 
   longitude: '-157.7738378',
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0e/cf/15/a7/sunrise-breakfast-at.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0e/cf/15/a7/sunrise-breakfast-at.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2000',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0e/cf/15/a7/sunrise-breakfast-at.jpg',
-        height: '1333',
-      },
       large: {
         width: '1024',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-w/0e/cf/15/a7/sunrise-breakfast-at.jpg',
+        url: 'https://www.hokuskahala.com/resources/media/user/1561482911-2019-05-03-Hokus-034_desktop.jpg',
         height: '682',
       },
       medium: {

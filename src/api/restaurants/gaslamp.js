@@ -5,9 +5,9 @@ const gaslamp = {
 
   name: 'Gaslamp',
 
-  latitude: '21.394639899999998',
+  latitude: '21.3946449',
 
-  longitude: '-157.7443808',
+  longitude: '-157.7465695',
 
   photo: {
     images: {

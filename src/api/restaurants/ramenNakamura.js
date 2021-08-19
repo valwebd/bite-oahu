@@ -11,24 +11,9 @@ const ramenNakamura = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/02/69/d9/ac/filename-112-jpg-thumbnail0.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/02/69/d9/ac/filename-112-jpg-thumbnail0.jpg',
-        height: '50',
-      },
-      original: {
-        width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/02/69/d9/ac/filename-112-jpg-thumbnail0.jpg',
-        height: '410',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/02/69/d9/ac/filename-112-jpg-thumbnail0.jpg',
+        url: 'https://pyxis.nymag.com/v1/imgs/d7f/d4b/c86e23b42084f6ffb85853b6e39c90543f-ramen-nakamura06.2x.h473.w710.jpg',
         height: '410',
       },
       medium: {

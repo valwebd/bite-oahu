@@ -1,13 +1,11 @@
-import {  makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-
   search: {
     position: 'relative',
     marginRight: theme.spacing(2),
     marginLeft: 0,
     width: '100%',
-    
   },
   searchIcon: {
     padding: theme.spacing(0, 2),
@@ -29,6 +27,8 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.up('md')]: { width: '20ch' },
   },
   toolbar: {
+    // paddingRight: '3rem',
+    backgroundColor: 'red',
     display: 'flex',
     justifyContent: 'space-between',
   },

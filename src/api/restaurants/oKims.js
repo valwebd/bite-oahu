@@ -11,24 +11,9 @@ const oKims = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0f/f2/bc/9d/photo1jpg.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0f/f2/bc/9d/photo1jpg.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2048',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0f/f2/bc/9d/photo1jpg.jpg',
-        height: '1536',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/0f/f2/bc/9d/photo1jpg.jpg',
+        url: 'https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.honolulumagazine.com/content/uploads/data-import/95d306ef/Okims-Korean-Chicken.jpg',
         height: '413',
       },
       medium: {

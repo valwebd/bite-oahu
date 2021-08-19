@@ -5,30 +5,15 @@ const helenasFood = {
 
   name: "Helena's Hawaiian Food",
 
-  latitude: '21.330868',
+  latitude: '21.3309259',
 
-  longitude: '-157.86523',
+  longitude: '-157.8672775',
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0e/79/7c/56/kalua-pig-cooked-in-imu.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0e/79/7c/56/kalua-pig-cooked-in-imu.jpg',
-        height: '50',
-      },
-      original: {
-        width: '800',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0e/79/7c/56/kalua-pig-cooked-in-imu.jpg',
-        height: '534',
-      },
       large: {
         width: '800',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0e/79/7c/56/kalua-pig-cooked-in-imu.jpg',
+        url: 'https://www.cookingclassy.com/wp-content/uploads/2020/05/kalua-pork-5.jpg',
         height: '534',
       },
       medium: {

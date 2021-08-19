@@ -12,19 +12,19 @@ const Header = ({ setFilter }) => {
   return (
     <AppBar position='static'>
       <Toolbar className={classes.toolbar}>
-        <Typography variant='h5'>Bite Oahu</Typography>
         <Box display='flex'>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <InputBase
-              placeholder='Filter by Name or Cuisine'
+              placeholder='Filter by name or cuisine'
               classes={{ root: classes.inputRoot, input: classes.inputInput }}
               onChange={handleChange}
             />
           </div>
         </Box>
+        <Typography variant='h5'>Bite Oahu</Typography>
       </Toolbar>
     </AppBar>
   );

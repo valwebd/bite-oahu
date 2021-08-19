@@ -7,10 +7,12 @@ const Map = ({ places, setMarkerClicked }) => {
   const coords = { lat: 21.355959, lng: -157.788222 };
   const classes = useStyles();
 
+  const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
+
   return (
     <div className={classes.mapContainer}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyBMKGLmZItUaWrg35L4whEeU61fEK095I0' }}
+        bootstrapURLKeys={{ key: API_KEY }}
         defaultCenter={coords}
         center={coords}
         defaultZoom={11}

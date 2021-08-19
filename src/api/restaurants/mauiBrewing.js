@@ -11,24 +11,9 @@ const mauiBrewing = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/17/23/f0/a6/20190411-170007-largejpg.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/17/23/f0/a6/20190411-170007-largejpg.jpg',
-        height: '50',
-      },
-      original: {
-        width: '756',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/17/23/f0/a6/20190411-170007-largejpg.jpg',
-        height: '1008',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-p/17/23/f0/a6/20190411-170007-largejpg.jpg',
+        url: 'https://images.unsplash.com/photo-1544982503-9f984c14501a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80',
         height: '733',
       },
       medium: {

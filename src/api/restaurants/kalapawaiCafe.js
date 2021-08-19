@@ -11,24 +11,9 @@ const kalapawaiCafe = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/05/cd/a9/36/kalapawai-cafe-deli.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/05/cd/a9/36/kalapawai-cafe-deli.jpg',
-        height: '50',
-      },
-      original: {
-        width: '2000',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/05/cd/a9/36/kalapawai-cafe-deli.jpg',
-        height: '1329',
-      },
       large: {
         width: '1024',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-w/05/cd/a9/36/kalapawai-cafe-deli.jpg',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-w/12/74/60/c0/where-you-pay-and-order.jpg',
         height: '680',
       },
       medium: {

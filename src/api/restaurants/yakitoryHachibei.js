@@ -11,24 +11,9 @@ const yakitoryHachibei = {
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/0e/4c/a4/04/photo5jpg.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/0e/4c/a4/04/photo5jpg.jpg',
-        height: '50',
-      },
-      original: {
-        width: '1536',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/0e/4c/a4/04/photo5jpg.jpg',
-        height: '2048',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-p/0e/4c/a4/04/photo5jpg.jpg',
+        url: 'https://mail.google.com/mail/u/0?ui=2&ik=6d7d5f3d9e&attid=0.1&permmsgid=msg-a:r-4675380935211750980&th=17b5cbfde6cbe4eb&view=fimg&realattid=f_ksig4tp10&disp=thd&attbid=ANGjdJ9PY9TVjtmhKNmxg4_CtCquFU7kCYQM77-BQAJnVL0eHG5yujSFrIpWc48dvyUP7WlpF5JFtRBgSL9Fy5L-wQINkAMvpbt3HXvFrA5kNzyoBaStkNqMH5L9vJo&ats=2524608000000&sz=w1978-h1747',
         height: '733',
       },
       medium: {

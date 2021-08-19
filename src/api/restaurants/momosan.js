@@ -7,24 +7,9 @@ const momosan = {
   longitude: '-157.82399',
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/13/2f/27/5e/momosan-waikiki-official.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/13/2f/27/5e/momosan-waikiki-official.jpg',
-        height: '50',
-      },
-      original: {
-        width: '827',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/13/2f/27/5e/momosan-waikiki-official.jpg',
-        height: '543',
-      },
       large: {
         width: '827',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/13/2f/27/5e/momosan-waikiki-official.jpg',
+        url: 'https://mail.google.com/mail/u/0?ui=2&ik=6d7d5f3d9e&attid=0.1&permmsgid=msg-f:1708483037829848645&th=17b5c0455ea0de45&view=fimg&realattid=17b5c043f1b958aabfb1&disp=thd&attbid=ANGjdJ_fllKpc25oNFaCAtWUBRGzx6XCd3GJP5J3HB4STTPwvOfRJ-FxGCcBwzMm1ZiqjK3rXDuQUmnKYUwpnVFgLq4jlUiEa4YOLJsyAUOb4qyrMJ7gL7f0D-zYgnI&ats=2524608000000&sz=w1978-h1861',
         height: '543',
       },
       medium: {

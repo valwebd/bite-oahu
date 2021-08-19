@@ -5,30 +5,15 @@ const inaba = {
 
   name: 'Inaba Restaurant',
 
-  latitude: '21.297138',
+  latitude: '21.3015104',
 
-  longitude: '-157.83566',
+  longitude: '-157.8666364',
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/02/33/bd/97/tensoba-gozen.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/02/33/bd/97/tensoba-gozen.jpg',
-        height: '50',
-      },
-      original: {
-        width: '3264',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/02/33/bd/97/tensoba-gozen.jpg',
-        height: '2448',
-      },
       large: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/02/33/bd/97/tensoba-gozen.jpg',
+        url: 'https://mail.google.com/mail/u/0?ui=2&ik=6d7d5f3d9e&attid=0.1&permmsgid=msg-f:1708483089746348157&th=17b5c0517517c87d&view=fimg&realattid=17b5c04faccaa1acf91&disp=thd&attbid=ANGjdJ-eZAjl2p2-v_OwIBp8yDC3_TFEOsssrynetYqeE8tbpYykmTODgwEQOjCG0ku213gZY8m1X5RlwfV48-BI6e-5uw1Rt1BAlzBqzz8BCPVCoOzD4A03MNoy9tc&ats=2524608000000&sz=w1963-h1861',
         height: '412',
       },
       medium: {

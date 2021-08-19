@@ -5,15 +5,15 @@ const bootsNKimos = {
 
   name: `Boots & Kimo's Homestyle Kitchen`,
 
-  latitude: '21.377692600000017',
+  latitude: '21.3776976',
 
-  longitude: '-157.7296601',
+  longitude: '-157.7318488',
 
   photo: {
     images: {
       large: {
         width: '550',
-        url: 'https://lh3.googleusercontent.com/places/AAcXr8q3vBAub0tJ4kOFCT-Nztl-4uxPv0bE5gUUvwlAYW27y6RmEWw1orMWi9YrtEtlxhTdfBtbR9iaEK--3XQMkqlPg_8xJyCs6V4=s1600-h4000',
+        url: 'https://images.unsplash.com/photo-1555813456-94a3dd418cd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1852&q=80',
         height: '733',
       },
       medium: {

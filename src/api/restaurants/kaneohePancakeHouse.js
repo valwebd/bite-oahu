@@ -11,24 +11,9 @@ const kaneohePancakeHouse = {
 
   photo: {
     images: {
-      small: {
-        width: '250',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-f/05/12/5f/dc/peanut-butter-chip-pancakes.jpg',
-        height: '140',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/05/12/5f/dc/peanut-butter-chip-pancakes.jpg',
-        height: '50',
-      },
-      original: {
-        width: '4320',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/05/12/5f/dc/peanut-butter-chip-pancakes.jpg',
-        height: '2432',
-      },
       large: {
         width: '1024',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-w/05/12/5f/dc/peanut-butter-chip-pancakes.jpg',
+        url: 'https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
         height: '576',
       },
       medium: {

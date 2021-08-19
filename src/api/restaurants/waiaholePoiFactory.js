@@ -13,7 +13,7 @@ const waiaholePoiFactory = {
     images: {
       large: {
         width: '550',
-        url: 'https://images.squarespace-cdn.com/content/v1/5a581879fe54efa94a125788/1519165355489-8AGJ751MGB2VBX04ZFVP/Poi+Factory-11.jpg?format=1000w',
+        url: 'https://mail.google.com/mail/u/0?ui=2&ik=6d7d5f3d9e&attid=0.1&permmsgid=msg-f:1708483011530654205&th=17b5c03f3f1301fd&view=fimg&realattid=17b5c03d5602cbbe5201&disp=thd&attbid=ANGjdJ83PmsO7hiU6mu1R7YZ1Hns2gHTiyoQy2xQgXpvQj-T1usTBnfPzYVsMApoxFRSqTjeZ1j7it8VZdmkATztlWCTOpK1sX1_26nanXmNRECNaAPULIxDbiX7nzM&ats=2524608000000&sz=w1978-h1861',
         height: '733',
       },
       medium: {

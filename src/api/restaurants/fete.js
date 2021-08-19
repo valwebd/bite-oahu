@@ -5,30 +5,15 @@ const fete = {
 
   name: 'Fete',
 
-  latitude: '21.311157',
+  latitude: '21.3112246',
 
-  longitude: '-157.86201',
+  longitude: '-157.8642011',
 
   photo: {
     images: {
-      small: {
-        width: '150',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-l/11/7f/bb/cf/dining-room.jpg',
-        height: '150',
-      },
-      thumbnail: {
-        width: '50',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-t/11/7f/bb/cf/dining-room.jpg',
-        height: '50',
-      },
-      original: {
-        width: '800',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/11/7f/bb/cf/dining-room.jpg',
-        height: '533',
-      },
       large: {
         width: '800',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-o/11/7f/bb/cf/dining-room.jpg',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-m/1280/19/e8/48/f7/korean-hangar-steak-with.jpg',
         height: '533',
       },
       medium: {
