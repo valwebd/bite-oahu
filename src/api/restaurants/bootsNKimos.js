@@ -13,7 +13,7 @@ const bootsNKimos = {
     images: {
       large: {
         width: '550',
-        url: 'https://images.unsplash.com/photo-1555813456-94a3dd418cd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1852&q=80',
+        url: 'https://fastly.4sqi.net/img/general/width960/11400150_7XFYulL7oiWHF7p9AyTlV3-R4QyEic57Z1E7rCm3zK8.jpg',
         height: '733',
       },
       medium: {

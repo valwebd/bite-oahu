@@ -24,7 +24,7 @@ const Header = ({ setFilter }) => {
             />
           </div>
         </Box>
-        <Typography variant='h5'>Bite Oahu</Typography>
+        <Typography variant='h5'>BiteOahu</Typography>
       </Toolbar>
     </AppBar>
   );
