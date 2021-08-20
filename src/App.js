@@ -42,7 +42,11 @@ function App() {
               />
             </Grid>
             <Grid item xs={12} md={8}>
-              <Map places={places} setMarkerClicked={setMarkerClicked} />
+              <Map
+                filter={filter}
+                places={places}
+                setMarkerClicked={setMarkerClicked}
+              />
             </Grid>
           </Grid>
         </>
