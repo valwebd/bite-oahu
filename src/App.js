@@ -55,7 +55,11 @@ function App() {
           <Container>
             <Grid container spacing={3} style={{ width: '100%' }}>
               <Grid item xs={12} md={8}>
-                <Map places={places} setMarkerClicked={setMarkerClicked} />
+                <Map
+                  filter={filter}
+                  places={places}
+                  setMarkerClicked={setMarkerClicked}
+                />
               </Grid>
               <Grid item xs={12} md={4}>
                 <List

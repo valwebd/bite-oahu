@@ -2,9 +2,8 @@ import { useState, useEffect, createRef } from 'react';
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import { Grid } from '@material-ui/core';
 import useStyles from './styles';
-import { data as places } from '../../api/data';
 
-const List = ({ filter, markerClicked }) => {
+const List = ({ places, filter, markerClicked }) => {
   const classes = useStyles();
   const [elRefs, setElRefs] = useState([]);
 
@@ -17,37 +16,35 @@ const List = ({ filter, markerClicked }) => {
   }, []);
 
   return (
-    <>
-      <div className={classes.container}>
-        <Grid container spacing={3} className={classes.list}>
-          {places
-            .filter((place) => {
-              if (filter === '') {
-                return place;
-              } else if (
-                place.name.toLowerCase().includes(filter.toLowerCase())
-              ) {
-                return place;
-              } else if (
-                place.cuisine.some((e) =>
-                  e.name.toLowerCase().includes(filter.toLowerCase())
-                )
-              ) {
-                return place;
-              }
-            })
-            .map((place, i) => (
-              <Grid ref={elRefs[i]} item key={place.location_id} xs={12}>
-                <PlaceDetails
-                  place={place}
-                  selected={markerClicked === i}
-                  refProp={elRefs[i]}
-                />
-              </Grid>
-            ))}
-        </Grid>
-      </div>
-    </>
+    <div className={classes.container}>
+      <Grid container spacing={3} className={classes.list}>
+        {places
+          .filter((place) => {
+            if (filter === '') {
+              return place;
+            } else if (
+              place.name.toLowerCase().includes(filter.toLowerCase())
+            ) {
+              return place;
+            } else if (
+              place.cuisine.some((e) =>
+                e.name.toLowerCase().includes(filter.toLowerCase())
+              )
+            ) {
+              return place;
+            }
+          })
+          .map((place, i) => (
+            <Grid ref={elRefs[i]} item key={place.id} xs={12}>
+              <PlaceDetails
+                place={place}
+                selected={markerClicked === i}
+                refProp={elRefs[i]}
+              />
+            </Grid>
+          ))}
+      </Grid>
+    </div>
   );
 };
 
