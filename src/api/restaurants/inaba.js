@@ -24,7 +24,7 @@ const inaba = {
     },
   },
 
-  description: 'Our favorite place for a traditional Japanese breakfast',
+  description: `I-naba serves authentic Japanese cuisine - we didn't find anything else on the island quite like it. We went for breakfast - green tea, seared fish, rice, and miso soup - but they're only doing lunch and dinner service right now (Covid). The space is modest and clean.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d590757-Reviews-Inaba_Restaurant-Honolulu_Oahu_Hawaii.html',
@@ -60,6 +60,30 @@ const inaba = {
     {
       key: '10697',
       name: 'Vegan Options',
+    },
+    {
+      key: '10697',
+      name: 'Lunch',
+    },
+    {
+      key: '10697',
+      name: 'Dinner',
+    },
+    {
+      key: '10697',
+      name: 'Seafood',
+    },
+    {
+      key: null,
+      name: 'Ala moana',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

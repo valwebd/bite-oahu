@@ -18,7 +18,7 @@ const Header = ({ setFilter }) => {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder='Filter by name or cuisine'
+              placeholder='Name, cuisine or area'
               classes={{ root: classes.inputRoot, input: classes.inputInput }}
               onChange={handleChange}
             />

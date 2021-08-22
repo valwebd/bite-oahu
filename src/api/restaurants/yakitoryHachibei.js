@@ -25,7 +25,7 @@ const yakitoryHachibei = {
   },
 
   description:
-    "We went here on our honeymoon and again on our anniversary - it's our favorite spot for Japanese yakitori.",
+    "We went here on our honeymoon and again on our anniversary - it's a beautiful spot and the Japanese yakitori is high-quality. The menu can be intimidating, but the servers are well-trained and make great recommendations. We didn't like the omakase and prefer to order each dish ourselves. Our favorite skewers are: the pork belly, chicken thigh, chicken breast, A4 Japanese wagyu, shiitake, quail egg, and Japanese pepper. If you have room for more, order their chicken ramen - we love the way it's served!",
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d12069501-Reviews-Yakitori_Hachibei-Honolulu_Oahu_Hawaii.html',
@@ -53,6 +53,26 @@ const yakitoryHachibei = {
     {
       key: '10659',
       name: 'Asian',
+    },
+    {
+      key: '10659',
+      name: 'Dinner',
+    },
+    {
+      key: '10659',
+      name: 'Fancy',
+    },
+    {
+      key: null,
+      name: 'Chinatown',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

@@ -25,7 +25,7 @@ const tchinTchin = {
   },
 
   description:
-    "This is probably the most elegant bar in Chinatown. The interior is beautiful (high ceilings, red brick walls, and beautiful drapes) plus there's an outdoor rooftop space.",
+    "We love Chinatown! Chinatown is where you'll find most of Oahu's historic architecture, lots of brick buildings built in the early 1900's. The area recently experienced a cultural revival in dining, shopping, and the arts - you can find a coffeeshop, a gallery, and a Chinese herbalist on the same block. Go in the daytime or the early evening, it gets rowdy after 8 PM. Of all the bars we tried - there are so many great bars and restaurants in Chinatown- Tchin Tchin! was our favorite. The interior is beautiful, plus they've got an outdoor rooftop space, which is fun to experience in the middle of downtown Honolulu.",
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d10036897-Reviews-The_Tchin_Tchin_Bar-Honolulu_Oahu_Hawaii.html',
@@ -57,6 +57,18 @@ const tchinTchin = {
     {
       key: '10665',
       name: 'Vegetarian Friendly',
+    },
+    {
+      key: null,
+      name: 'Chinatown',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

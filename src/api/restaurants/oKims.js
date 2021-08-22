@@ -25,7 +25,7 @@ const oKims = {
   },
 
   description:
-    "This place is BYOB, which is fun. Make reservations online, they have limited seating due to Covid. The food here is non-traditional Korean - they pull inspiration from local flavors and the result is some of the most interesting food we've ever had. The location is interesting, too, the restaurant is in Chinatown but they have a back patio. In addition to their core menu, they do monthly specials.",
+    "O'Kims is an adventurous choice. The food here is non-traditional Korean - they pull inspiration from local flavors and the result is some of the most interesting food we've ever had. Make reservations online, they have limited seating due to Covid. The location is interesting, too, the restaurant is in Chinatown but they have a backyard patio. In addition to their core menu, they do monthly specials and they are BYOB, which is FUN.",
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d12659844-Reviews-O_Kims_Korean_Kitchen-Honolulu_Oahu_Hawaii.html',
@@ -61,6 +61,22 @@ const oKims = {
     {
       key: '10665',
       name: 'Vegetarian Friendly',
+    },
+    {
+      key: '10665',
+      name: 'BYOB',
+    },
+    {
+      key: null,
+      name: 'Chinatown',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

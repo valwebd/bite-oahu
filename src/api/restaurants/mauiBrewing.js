@@ -24,8 +24,7 @@ const mauiBrewing = {
     },
   },
 
-  description:
-    'Our favorite place to grab a beer. Thin-crust pizza is very good.',
+  description: `We love Maui Brewing Co. for happy hour. This space is big and airy, and we never had trouble finding a seat. We like their (thin-crust) pizza. It's hard to find decent pizza on Oahu.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60652-d15657665-Reviews-Maui_Brewing_Co-Kailua_Oahu_Hawaii.html',
@@ -65,6 +64,22 @@ const mauiBrewing = {
     {
       key: '21353',
       name: 'Dining bars',
+    },
+    {
+      key: '21353',
+      name: 'Happy hour',
+    },
+    {
+      key: '21353',
+      name: 'Beer',
+    },
+    {
+      key: '21353',
+      name: 'Kailua',
+    },
+    {
+      key: '21353',
+      name: 'Windward',
     },
   ],
 };

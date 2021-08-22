@@ -24,7 +24,7 @@ const fete = {
     },
   },
 
-  description: '',
+  description: `Fete serves New American cuisine, which is still tough to find on the island. The head chef is from Hawaii but she launched her career in New York, and the restaurant touts itself as a sort of "hapa" Brooklyn/Honolulu experience. Their ingredients are locally sourced, which is still a relatively new trend in Hawaii's food scene. We like this place for its vibe, especially. Skip their sandwiches and pasta, and go for one of their entrees instead.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d10228085-Reviews-Fete-Honolulu_Oahu_Hawaii.html',
@@ -47,7 +47,7 @@ const fete = {
   cuisine: [
     {
       key: '9908',
-      name: 'American',
+      name: 'New American',
     },
     {
       key: '10665',
@@ -60,6 +60,34 @@ const fete = {
     {
       key: '10992',
       name: 'Gluten Free Options',
+    },
+    {
+      key: '10992',
+      name: 'Dinner',
+    },
+    {
+      key: '10992',
+      name: 'Hipster',
+    },
+    {
+      key: '10992',
+      name: 'Cocktails',
+    },
+    {
+      key: '10992',
+      name: 'Bar',
+    },
+    {
+      key: null,
+      name: 'Chinatown',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

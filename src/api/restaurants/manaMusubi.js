@@ -16,16 +16,11 @@ const manaMusubi = {
         url: 'https://i2.wp.com/tastyislandhawaii.com/wp-content/uploads/mana_musubi_shop10.jpg',
         height: '550',
       },
-      medium: {
-        width: '450',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/13/0b/e9/23/mana-bu-s.jpg',
-        height: '450',
-      },
     },
   },
 
   description:
-    'The best place on the island for Japanese onigiri. To-go only. Go in the morning, they sell out fast because people buy bagfuls. The onigiri come in a variety of traditional and non-traditional flavors.',
+    'Mana Musubi is our favorite place for Japanese onigiri.To-go only. The onigiri come in a variety of traditional and non-traditional flavors. Go in the morning, they sell out fast because people buy them in bagfuls.',
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d1879671-Reviews-Mana_Bu_s-Honolulu_Oahu_Hawaii.html',
@@ -49,6 +44,30 @@ const manaMusubi = {
     {
       key: '5473',
       name: 'Japanese',
+    },
+    {
+      key: '5473',
+      name: 'Snacks',
+    },
+    {
+      key: '5473',
+      name: 'Onigiri',
+    },
+    {
+      key: '5473',
+      name: 'Takeout',
+    },
+    {
+      key: null,
+      name: 'Ala moana',
+    },
+    {
+      key: null,
+      name: 'Downtown',
+    },
+    {
+      key: null,
+      name: 'Honolulu',
     },
   ],
 };

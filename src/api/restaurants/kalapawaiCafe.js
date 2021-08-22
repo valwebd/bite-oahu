@@ -25,7 +25,7 @@ const kalapawaiCafe = {
   },
 
   description:
-    'Decent sandwiches. You can also get breakfast here. Our favorite local mart, they have several locations on the Windward side and it was our go-to for fast and easy meals.',
+    'Kalapawai is famous on Oahu, they have several locations and a vibe that is old-school local. Some locations have a sit-down area and are supposedly great for lunch or breakfast, but we preferred to order their sandwiches to-go on our way to the beach.',
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60652-d660569-Reviews-Kalapawai_Cafe_Deli-Kailua_Oahu_Hawaii.html',
@@ -65,6 +65,42 @@ const kalapawaiCafe = {
     {
       key: '10992',
       name: 'Gluten Free Options',
+    },
+    {
+      key: '10992',
+      name: 'Sandwiches',
+    },
+    {
+      key: '10992',
+      name: 'Grocery',
+    },
+    {
+      key: '10992',
+      name: 'Breakfast',
+    },
+    {
+      key: '10992',
+      name: 'Lunch',
+    },
+    {
+      key: '10992',
+      name: 'Deli',
+    },
+    {
+      key: '10992',
+      name: 'Takeout',
+    },
+    {
+      key: '10992',
+      name: 'Kailua',
+    },
+    {
+      key: '10992',
+      name: 'Waimanalo',
+    },
+    {
+      key: '10992',
+      name: 'Windward',
     },
   ],
 };

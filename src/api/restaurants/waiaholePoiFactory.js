@@ -25,7 +25,7 @@ const waiaholePoiFactory = {
   },
 
   description:
-    "If you decide to drive to North Shore from Kailua, you HAVE to stop at Waiahole Poi Factory. This is traditional Hawaiian food. They are take-out only and there can be a long line, so order to-go online and you won't have to wait. Check their website to make sure they haven't sold out of the kalua pork.",
+    "If you decide to drive North from Kailua, you have to stop at Waiahole Poi Factory. Originally constructed in 1905, it operated as a poi factory until the 1970's. Now it's a restaurant that serves traditional Hawaiian food. They are take-out only (Covid) and there can be a long line, so order to-go on their website 15 minutes before arriving. Becky's favorite meal is the Kalua Pig & Squid Lu’au combo plate, Val likes their Beef Lu’au. We think they make some of the best food on the Windward side.",
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60653-d2459053-Reviews-Waiahole_Poi_factory-Kaneohe_Oahu_Hawaii.html',
@@ -53,6 +53,30 @@ const waiaholePoiFactory = {
     {
       key: '10727',
       name: 'Polynesian',
+    },
+    {
+      key: '10727',
+      name: 'Lunch',
+    },
+    {
+      key: '10727',
+      name: 'Takeout',
+    },
+    {
+      key: '10727',
+      name: 'Local',
+    },
+    {
+      key: '10727',
+      name: 'Kaneohe',
+    },
+    {
+      key: '10727',
+      name: 'Kahaluu',
+    },
+    {
+      key: '10727',
+      name: 'Windward',
     },
   ],
 };

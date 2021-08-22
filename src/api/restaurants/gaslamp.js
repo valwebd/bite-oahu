@@ -13,19 +13,19 @@ const gaslamp = {
     images: {
       large: {
         width: '550',
-        url: 'https://gaslamphi.com/images/newimage3.jpg',
+        url: 'https://gaslamphi.com/images/image1.jpg',
         height: '733',
       },
       medium: {
         width: '338',
-        url: 'https://gaslamphi.com/images/newimage3.jpg',
+        url: 'https://gaslamphi.com/images/image1.jpg',
         height: '450',
       },
     },
   },
 
   description:
-    "We didn't get a chance to visit Gaslamp but it was recommended to us TWICE, plus the menu looks incredible. One person told us it's the nicest restaurant on the Windward side, the other said they make the best cocktails on Oahu. Make reservations at least a week in advance.",
+    "This is a swanky speakeasy tucked behind Kailua Town Pub. We didn't get a chance to visit Gaslamp but it was recommended to us twice, plus the menu looks incredible. One person told us it's the nicest restaurant on the Windward side, the other said they make the best cocktails on Oahu. You have to make reservations at least a week in advance because space is limited, plus there's a dress code (collared shirts and closed toe shoes for men, no bathing suits or gym clothes, etc.).",
 
   web_url: 'https://www.yelp.com/biz/gaslamp-kailua',
 
@@ -52,6 +52,34 @@ const gaslamp = {
     {
       key: null,
       name: 'Steak',
+    },
+    {
+      key: null,
+      name: 'Dinner',
+    },
+    {
+      key: null,
+      name: 'Fancy',
+    },
+    {
+      key: null,
+      name: 'Hipster',
+    },
+    {
+      key: null,
+      name: 'Seafood',
+    },
+    {
+      key: null,
+      name: 'Cocktails',
+    },
+    {
+      key: null,
+      name: 'Kailua',
+    },
+    {
+      key: null,
+      name: 'Windward',
     },
   ],
 };

@@ -3,7 +3,7 @@ const kaneohePancakeHouse = {
 
   location_id: '434522',
 
-  name: 'Kaneohe Pancake House',
+  name: 'Koa Pancake House',
 
   latitude: '21.417381',
 
@@ -13,18 +13,19 @@ const kaneohePancakeHouse = {
     images: {
       large: {
         width: '1024',
-        url: 'https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-o/17/fd/97/35/chocolate-chip-pancakes.jpg',
         height: '576',
       },
       medium: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/05/12/5f/dc/peanut-butter-chip-pancakes.jpg',
+        url: 'https://media-cdn.tripadvisor.com/media/photo-o/17/fd/97/35/chocolate-chip-pancakes.jpg',
         height: '309',
       },
     },
   },
 
-  description: 'Local food diner-style',
+  description:
+    'This is the best place for a diner breakfast, local style. Koa Pancake House has been around for more than 30 years and the food is just solid, good-quality diner food. Agent Dale Cooper would love the coffee here. Becky misses their Portuguese Sausage Breakfast Plate and Val loves their waffles.',
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60653-d434522-Reviews-Kaneohe_Pancake_House-Kaneohe_Oahu_Hawaii.html',
@@ -60,6 +61,18 @@ const kaneohePancakeHouse = {
     {
       key: null,
       name: 'Breakfast',
+    },
+    {
+      key: null,
+      name: 'Brunch',
+    },
+    {
+      key: null,
+      name: 'Kaneohe',
+    },
+    {
+      key: null,
+      name: 'Windward',
     },
   ],
 };

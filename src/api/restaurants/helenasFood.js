@@ -13,18 +13,18 @@ const helenasFood = {
     images: {
       large: {
         width: '800',
-        url: 'https://www.cookingclassy.com/wp-content/uploads/2020/05/kalua-pork-5.jpg',
+        url: 'http://indulgenteats.com/wp-content/uploads/2018/01/Where-to-Eat-in-Oahu-Helenas-Hawaiian-Food.jpeg',
         height: '534',
       },
       medium: {
         width: '550',
-        url: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/79/7c/56/kalua-pig-cooked-in-imu.jpg',
+        url: 'http://indulgenteats.com/wp-content/uploads/2018/01/Where-to-Eat-in-Oahu-Helenas-Hawaiian-Food.jpeg',
         height: '367',
       },
     },
   },
 
-  description: '',
+  description: `We didn't get a chance to visit Helena's but we had to add it to the list - the restaurant won a James Beard award back in 2000 for its traditional Hawaiian food.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d434456-Reviews-Helena_s_Hawaiian_Food-Honolulu_Oahu_Hawaii.html',
@@ -56,6 +56,26 @@ const helenasFood = {
     {
       key: '10992',
       name: 'Gluten Free Options',
+    },
+    {
+      key: '10992',
+      name: 'Lunch',
+    },
+    {
+      key: '10992',
+      name: 'Dinner',
+    },
+    {
+      key: '10992',
+      name: 'Local',
+    },
+    {
+      key: '10992',
+      name: 'Downtown',
+    },
+    {
+      key: '10992',
+      name: 'Honolulu',
     },
   ],
 };

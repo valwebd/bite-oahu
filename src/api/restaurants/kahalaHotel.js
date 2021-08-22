@@ -25,7 +25,7 @@ const kahalaHotel = {
   },
 
   description:
-    "Kahala Resort is GORGEOUS. Go for breakfast, lunch, or dinner. Go twice. They have several restaurants - Plumeria Beach House, Hoku's, Seaside Grill, The Veranda, and Arancino. I think there's live music at The Veranda. Kahala Resort is probably the best spot on the island for a romantic date night.",
+    "Kahala Resort is awesome - the food is delicious, the location is gorgeous, and the prices are reasonable. They have several restaurants: Plumeria Beach House, Hoku's, Seaside Grill, The Veranda, and Arancino. The Beach House is probably best for breakfast or lunch, I think there's live music at The Veranda. Kahala Resort is probably the best spot on the island for a romantic date night.",
 
   web_url:
     'https://www.tripadvisor.com/Hotel_Review-g60982-d114008-Reviews-The_Kahala_Hotel_Resort-Honolulu_Oahu_Hawaii.html',
@@ -70,6 +70,30 @@ const kahalaHotel = {
     {
       key: '10992',
       name: 'Gluten Free Options',
+    },
+    {
+      key: '10992',
+      name: 'Fancy',
+    },
+    {
+      key: '10992',
+      name: 'Lunch',
+    },
+    {
+      key: '10992',
+      name: 'Dinner',
+    },
+    {
+      key: '10992',
+      name: 'Brunch',
+    },
+    {
+      key: '10992',
+      name: 'Breakfast',
+    },
+    {
+      key: '10992',
+      name: 'Live music',
     },
   ],
 };
