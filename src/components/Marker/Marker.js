@@ -8,7 +8,11 @@ const Marker = ({ place, setMarkerClicked }) => {
   const classes = useStyles();
   return (
     <div className={classes.marker}>
-      <Tooltip title={place.name} placement='right-start' enterTouchDelay='0'>
+      <Tooltip
+        title={place.name}
+        placement='right-start'
+        enterTouchDelay='1000'
+      >
         <LocationOnIcon
           onClick={handleMarkerClick}
           className={classes.marker}
