@@ -20,19 +20,14 @@ const List = ({ places, filter, markerClicked }) => {
       <Grid container spacing={3} className={classes.list}>
         {places
           .filter((place) => {
-            if (filter === '') {
-              return place;
-            } else if (
-              place.name.toLowerCase().includes(filter.toLowerCase())
-            ) {
-              return place;
-            } else if (
+            if (
+              filter === '' ||
+              place.name.toLowerCase().includes(filter.toLowerCase()) ||
               place.cuisine.some((e) =>
                 e.name.toLowerCase().includes(filter.toLowerCase())
               )
-            ) {
+            )
               return place;
-            }
           })
           .map((place, i) => (
             <Grid ref={elRefs[i]} item key={place.id} xs={12}>

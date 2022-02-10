@@ -10,17 +10,14 @@ const Map = ({ places, filter, setMarkerClicked }) => {
   const API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
   const markers = places.filter((place) => {
-    if (filter === '') {
-      return place;
-    } else if (place.name.toLowerCase().includes(filter.toLowerCase())) {
-      return place;
-    } else if (
+    if (
+      filter === '' ||
+      place.name.toLowerCase().includes(filter.toLowerCase()) ||
       place.cuisine.some((e) =>
         e.name.toLowerCase().includes(filter.toLowerCase())
       )
-    ) {
+    )
       return place;
-    }
   });
 
   return (

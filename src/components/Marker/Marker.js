@@ -11,7 +11,7 @@ const Marker = ({ place, setMarkerClicked }) => {
       <Tooltip
         title={place.name}
         placement='right-start'
-        enterTouchDelay='1000'
+        enterTouchDelay={1000}
       >
         <LocationOnIcon
           onClick={handleMarkerClick}
