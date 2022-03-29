@@ -24,7 +24,8 @@ const fete = {
     },
   },
 
-  description: `Fete serves New American cuisine, which is still tough to find on the island. The head chef is from Hawaii but she launched her career in New York, and the restaurant touts itself as a sort of "hapa" Brooklyn/Honolulu experience. Their ingredients are locally sourced, which is still a relatively new trend in Hawaii's food scene. We like this place for its vibe, especially. Skip their sandwiches and pasta, and go for one of their entrees instead.`,
+  description: `Chef Maii was born and raised in Honolulu but she honed her culinary skills in New York City - her restaurant touts itself as a "hapa" Brooklyn/Honolulu experience of New American cuisine. Fete is located in one of Chinatown’s historic brick buildings, and its local vintage vibes are sophisticated but not pretentious. Aloha shirts and casual summer dresses are standard attire. We recommend their sandwiches for lunch, or a cocktail & main entree pairing for dinner.
+  `,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d10228085-Reviews-Fete-Honolulu_Oahu_Hawaii.html',

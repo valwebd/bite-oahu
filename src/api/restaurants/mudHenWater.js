@@ -25,7 +25,7 @@ const mudHenWater = {
   },
 
   description:
-    'Becky loves this place, which is serving inventive Hawaiian small plates made with unusual local ingredients. Val was displeased with their portion sizes, but he enjoyed his cocktail. The space is charming and casual. You have to make reservations a few days in advance.',
+    `Mud Hen Water is serving inventive Hawaiian small plates made with ingredients normally reserved for traditional Hawaiian dishes. Their cocktails are worth the trip alone, and their Kaimuki spot is charming and casual. Where else can you get beet poke and buttered ‘ulu (breadfruit)?`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d8285079-Reviews-Mud_Hen_Water-Honolulu_Oahu_Hawaii.html',

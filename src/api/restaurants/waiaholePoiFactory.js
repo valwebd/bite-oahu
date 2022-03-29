@@ -25,7 +25,7 @@ const waiaholePoiFactory = {
   },
 
   description:
-    "If you decide to drive North from Kailua, you have to stop at Waiahole Poi Factory. Originally constructed in 1905, it operated as a poi factory until the 1970's. Now it's a restaurant that serves traditional Hawaiian food. They are take-out only (Covid) and there can be a long line, so order to-go on their website 15 minutes before arriving. Becky's favorite meal is the Kalua Pig & Squid Lu’au combo plate, Val likes their Beef Lu’au. We think they make some of the best food on the Windward side.",
+    `From Kailua to Haleiwa, the drive north along Kamehameha Highway is probably the most scenic drive on Oahu. If you decide to go the full 45 miles, we recommend a stop at Waiahole Poi Factory. One of the few Hawaiian restaurants owned by Hawaiians, the building was originally constructed in 1905 and operated as a poi factory until 1971, when it was bought by Charlene and Calvin Hoe and turned into an art gallery. In 2009, the family converted the building once again, this time into a restaurant. We recommend the kanaka nui plate, a combination of nearly everything on the menu.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60653-d2459053-Reviews-Waiahole_Poi_factory-Kaneohe_Oahu_Hawaii.html',

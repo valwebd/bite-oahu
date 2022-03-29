@@ -25,7 +25,8 @@ const kaneohePancakeHouse = {
   },
 
   description:
-    'This is the best place for a diner breakfast, local style. Koa Pancake House has been around for more than 30 years and the food is just solid, good-quality diner food. Agent Dale Cooper would love the coffee here. Becky misses their Portuguese Sausage Breakfast Plate and Val loves their waffles.',
+    `Koa Pancake House has been around for more than 30 years and is a favorite breakfast spot in Kaneohe. This is traditional, good-quality diner food with a Hawaiian twist. Agent Dale Cooper would love the coffee here, but we go for their Portuguese sausage breakfast plate and macadamia nut pancakes.
+    `,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60653-d434522-Reviews-Kaneohe_Pancake_House-Kaneohe_Oahu_Hawaii.html',

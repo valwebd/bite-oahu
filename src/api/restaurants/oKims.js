@@ -25,7 +25,7 @@ const oKims = {
   },
 
   description:
-    "O'Kims is an adventurous choice. The food here is non-traditional Korean - they pull inspiration from local flavors and the result is some of the most interesting food we've ever had. Make reservations online, they have limited seating due to Covid. The location is interesting, too, the restaurant is in Chinatown but they have a backyard patio. In addition to their core menu, they do monthly specials and they are BYOB, which is FUN.",
+    `O'Kim’s is an adventurous choice for non-traditional Korean food. O’Kim’s chefs pull inspiration from local dishes and the result is some of the most interesting and inventive food we had on the island. In addition to their core menu, O’Kim’s does monthly specials and they are BYOB, which is fun. Ask for seats on their backyard patio.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d12659844-Reviews-O_Kims_Korean_Kitchen-Honolulu_Oahu_Hawaii.html',

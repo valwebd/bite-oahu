@@ -23,7 +23,8 @@ const bunMi = {
   },
 
   description:
-    'Vietnamese street food! Our favorite place to get cheap and yummy banh mi to go',
+    `This hole-in-the-wall restaurant is located in Kaneohe’s Yogi Building, which it shares with feed store Kaneohe Farm Supplies. Kaneohe is a small town dominated by chain restaurants, but locally-owned and operated Bun Mi serves fresh Vietnamese fare at a more than reasonable price.
+    `,
 
   web_url: 'https://www.yelp.com/biz/bun-mi-kaneohe',
 

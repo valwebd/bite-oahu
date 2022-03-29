@@ -25,7 +25,7 @@ const gaslamp = {
   },
 
   description:
-    "This is a swanky speakeasy tucked behind Kailua Town Pub. We didn't get a chance to visit Gaslamp but it was recommended to us twice, plus the menu looks incredible. One person told us it's the nicest restaurant on the Windward side, the other said they make the best cocktails on Oahu. You have to make reservations at least a week in advance because space is limited, plus there's a dress code (collared shirts and closed toe shoes for men, no bathing suits or gym clothes, etc.).",
+    `This dimly-lit speakeasy is a gem hiding behind beloved dive Kailua Town Pub. Kailua is a small town with a population of about 40,000, but Gaslamp could easily compete with Honolulu’s swanky restaurants. Come for the cocktails, stay for The Yacht - an impressive shellfish tower of Alaskan king crab, oysters, Argentinian prawns, Caribbean lobster tails, Norwegian langoustines, and Hawaiian ahi poké. You have to make reservations at least a week in advance because space is limited (and there's a dress code, too).`,
 
   web_url: 'https://www.yelp.com/biz/gaslamp-kailua',
 

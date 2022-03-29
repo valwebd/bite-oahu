@@ -20,7 +20,7 @@ const momosan = {
     },
   },
   description:
-    "Momosan is Val's favorite place for non-traditional ramen (a dense, flavorful broth made with unusual ingredients, like BBQ sauce!). Becky loves their appetizers. Service is friendly and the location is Covid-considerate (hand sanitizer is available, servers are masked, tables are spaced out, etc.). So many places in Waikiki are overpriced or too busy, and the food is terrible.",
+    `Momosan is our favorite place for non-traditional ramen. This is a dense, flavorful broth made with unusual ingredients, like BBQ sauce (for real). Momosan’s staff is knowledgable and friendly, and the food is reliably tasty and reasonably priced in an area that is watered down with tourist traps.`,
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d14111082-Reviews-Momosan_Waikiki-Honolulu_Oahu_Hawaii.html',
   phone: '+1 808-922-0011',

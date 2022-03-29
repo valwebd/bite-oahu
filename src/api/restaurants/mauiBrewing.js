@@ -3,7 +3,7 @@ const mauiBrewing = {
 
   location_id: '15657665',
 
-  name: 'Maui Brewing Co.',
+  name: 'Maui Brewing Company',
 
   latitude: '21.393545',
 
@@ -24,7 +24,7 @@ const mauiBrewing = {
     },
   },
 
-  description: `We love Maui Brewing Co. for happy hour. This space is big and airy, and we never had trouble finding a seat. We like their (thin-crust) pizza. It's hard to find decent pizza on Oahu.`,
+  description: `We love Maui Brewing Co. for happy hour in Kailua Town. The space is big and airy, and we never have trouble finding a seat. Five years ago the island experienced a renaissance in local beer-making, and Maui Brewing is Oahu’s largest craft brewery. Good pizza is tough to find on Oahu, but they serve up a thin crust pizza that pairs perfectly with their lager.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60652-d15657665-Reviews-Maui_Brewing_Co-Kailua_Oahu_Hawaii.html',

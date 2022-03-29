@@ -25,7 +25,7 @@ const yakitoryHachibei = {
   },
 
   description:
-    "We went here on our honeymoon and again on our anniversary - it's a beautiful spot and the Japanese yakitori is high-quality. The menu can be intimidating, but the servers are well-trained and make great recommendations. We didn't like the omakase and prefer to order each dish ourselves. Our favorite skewers are: the pork belly, chicken thigh, chicken breast, A4 Japanese wagyu, shiitake, quail egg, and Japanese pepper. If you have room for more, order their chicken ramen - we love the way it's served!",
+    `Yakitori Hachibei is a Japanese import with cosmopolitan energy and an intimidating menu. The best seats are at the counter, where you can watch the yakitori chef grill your skewers. Skip the omakase and order each dish yourself, we recommend the sukiyaki, A4 Japanese wagyu, and as many of the chicken skewers as you can fit (their poultry is sourced from local J. Ludovico farms). If you have room for more, finish your meal with their chicken ramen - we love the way it's served!`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d12069501-Reviews-Yakitori_Hachibei-Honolulu_Oahu_Hawaii.html',

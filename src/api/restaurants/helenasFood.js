@@ -24,7 +24,7 @@ const helenasFood = {
     },
   },
 
-  description: `We didn't get a chance to visit Helena's but we had to add it to the list - the restaurant won a James Beard award back in 2000 for its traditional Hawaiian food.`,
+  description: `In 1946, Helena Chock opened Helena’s Hawaiian Food. Despite winning the James Beard’s Regional Classic Award in 2000, the restaurant is still as simple and unpretentious as when it first opened over 75 years ago. We recommend Menu D for newcomers - a combo platter of kalua pig, lomi salmon, pipikaula shortribs, and luau squid.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d434456-Reviews-Helena_s_Hawaiian_Food-Honolulu_Oahu_Hawaii.html',
