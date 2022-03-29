@@ -25,7 +25,7 @@ const lilihaBakery = {
   },
 
   description:
-    "If you can avoid it, don't go to a restaurant at Ala Moana Shopping Center. The restaurants are overpriced and NOT Covid responsible. If you need a quick bite, we recommend Brug (another bakery on this list). But if you want a sit-down meal, try Liliha Bakery. This location is in the Ala Moana Macy's, but the original bakery is famous on the island. The food at the adjacent restaurant is okay, but still better than anything else you'll find at the mall. Ruscello is another option (located in the Nordstrom) but we didn't get a chance to try it.",
+    "There are over a hundred dining options at pricey Ala Moana, but we think Liliha Bakery is the only place worth visiting for a moderately priced sit-down meal. This location is tucked away on the third floor of Macy's, but the original bakery is famous on the island for its coco puffs (cream puffs filled with chocolate frosting) and malasadas (Portuguese fried donuts).",
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d17205708-Reviews-Liliha_Bakery_III-Honolulu_Oahu_Hawaii.html',
