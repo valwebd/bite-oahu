@@ -25,7 +25,7 @@ const Junpuu = {
   },
 
   description:
-    "Becky's favorite place for ramen! The restaurant is a block away from the Honolulu Museum of Art. The food is delicious, service is friendly, and the location is cozy. They did a good job spacing the seats for Covid.",
+    `Centrally-located Junpuu is just a few blocks from the Honolulu Museum of Art, Iolani Palace, and the Hawaii State Art Museum, which features art made exclusively by locals. It’s also probably one of the few places on the island where you can get delicious vegetarian ramen.`,
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d7604630-Reviews-Junpuu-Honolulu_Oahu_Hawaii.html',
 

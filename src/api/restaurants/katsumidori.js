@@ -23,7 +23,7 @@ const katsumidori = {
   },
 
   description:
-    "Oddly enough, good and affordable sushi is tough to find on Oahu. If you're looking for something fancy, Waikiki has some great spots like Doraku and Nobu, but we prefer the prices at Katsumidori. This is legit Japanese sushi, a little too fishy for Val's tastes but Becky was in heaven. The restaurant is located inside the Prince Waikiki hotel - we got a little lost looking for it and had to ask the front desk for help.",
+   `Oddly enough, affordable quality sushi is tough to find on Oahu. If you're looking to splurge, try Waikiki’s Doraku or Nobu, but we prefer the prices at Katsumidori. This is legit Japanese sushi. The modest restaurant is located on the first floor of the Prince Waikiki hotel - if you get lost looking for it, ask the front desk for help.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d11951306-Reviews-Katsumidori_Sushi-Honolulu_Oahu_Hawaii.html',

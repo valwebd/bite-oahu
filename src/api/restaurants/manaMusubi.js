@@ -20,7 +20,7 @@ const manaMusubi = {
   },
 
   description:
-    'Mana Musubi is our favorite place for Japanese onigiri.To-go only. The onigiri come in a variety of traditional and non-traditional flavors. Go in the morning, they sell out fast because people buy them in bagfuls.',
+    `Mana Musubi is our favorite place for Japanese onigiri. To-go only, the onigiri are prepared in the early morning in a variety of traditional and non-traditional flavors. Go early - Mana sells out fast because locals buy their onigiri in bagfuls.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d1879671-Reviews-Mana_Bu_s-Honolulu_Oahu_Hawaii.html',

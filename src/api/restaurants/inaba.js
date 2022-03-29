@@ -24,7 +24,7 @@ const inaba = {
     },
   },
 
-  description: `I-naba serves authentic Japanese cuisine - we didn't find anything else on the island quite like it. We went for breakfast - green tea, seared fish, rice, and miso soup - but they're only doing lunch and dinner service right now (Covid). The space is modest and clean.`,
+  description: `There’s no place on the island quite like I-naba, an authentic Japanese restaurant serving authentic Japanese cuisine. It’s our favorite spot for a light breakfast of green tea, seared fish, rice, and miso soup. I-naba’s wooden-screened interior is casual and clean and classic Japanese.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d590757-Reviews-Inaba_Restaurant-Honolulu_Oahu_Hawaii.html',

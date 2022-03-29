@@ -22,7 +22,7 @@ const rigo = {
     },
   },
 
-  description: `Rigo is among our top 5 favorite restaurants. Everything on this menu is incredible. We never had to make reservations because we'd go for happy hour, but they're recommended for dinner service.`,
+  description: `Oahu’s food scene is dominated by Pan-Asian and Polynesian cuisine, and good Italian pasta is difficult to find. Rigo is a Spanish-Italian restaurant with an extensive tapas menu. Located on Kapahulu Avenue, Rigo’s dishes are expertly prepared and less expensive than you expect. We like to go when we’re in the mood for a decadent happy hour, but Rigo has a lively dinner scene.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d17593489-Reviews-Rigo-Honolulu_Oahu_Hawaii.html',

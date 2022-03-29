@@ -23,7 +23,7 @@ const salt = {
   },
 
   description:
-    "SALT At Our Kaka'ako is a new community of stores, bars, and restaurants in the west end of Kaka'ako. It was developed by Kamehameha Schools, which was founded by Princess Bernice Pauahi Bishop, the last direct descendant of King Kamehameha I. Take a look at the directory on their website before visiting, there are many places to choose from - the community takes up nine blocks and everything is within walking distance . We liked Moku Kitchen for a casual dinner and Bevy for fancy cocktails. Kaka'ako is a great area in general, and definitely worth exploring.",
+    `SALT At Our Kaka'ako is a new community of stores, bars, and restaurants at the west end of Kaka'ako. It was developed by Kamehameha Schools, which was founded by Princess Bernice Pauahi Bishop, the last direct descendant of King Kamehameha I.  Locals are creatively transforming the formerly-industrial Kaka'ako, and the area is worth exploring. Take a look at their website directory before visiting because the community covers a walkable nine blocks and there is plenty to see. We recommend Moku Kitchen for casual dinner and Bevy for fancy cocktails.`,
 
   web_url: 'https://www.yelp.com/biz/salt-at-our-kakaako-honolulu',
 

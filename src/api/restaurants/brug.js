@@ -23,7 +23,8 @@ const brug = {
   },
 
   description:
-    "Brug is a Japanese bakery with two locations at Ala Moana Shopping Center. We didn't like eating at Ala Moana (not Covid responsible, food is overpriced and poorly made) but Brug is great. Their baked goods are unique and delicious. Val likes their sweet fruit pastries, Becky prefers their savory pastries. There are two locations at Ala Moana, the one located at the Lanai (one of the food courts at the mall) has more options.",
+    `If you get hungry while you’re shopping at Ala Moana Shopping Center, Brug is our favorite spot for a quick snack. Founded in Hokkaido in 1977 by Chef Takemura, Brug’s Japanese-European fusion pastries are prepared fresh every morning at 4 am, which is quite the feat when you consider their huge variety of sweet and savory pastries. We recommend their neko pan, bacon epi, and Hawaiian-inspired kalua pork pastry. \nBoth bakeries at Ala Moana are self-serve. Brug’s suite#1080 location (next to tea store Lupicia Hawaii) is easy to access via Ala Moana’s Kona St. entrance, but their #2274 Lanai location is located in a food court with seating and has more pastry options to choose from.`
+    ,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d12228400-Reviews-BRUG_Bakery-Honolulu_Oahu_Hawaii.html',

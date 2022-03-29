@@ -25,7 +25,7 @@ const kalapawaiCafe = {
   },
 
   description:
-    'Kalapawai is famous on Oahu, they have several locations and a vibe that is old-school local. Some locations have a sit-down area and are supposedly great for lunch or breakfast, but we preferred to order their sandwiches to-go on our way to the beach.',
+    `Kalapawai Market is an iconic corner store with four locations on Oahu. Its forest green exterior has a plantation-era feel that you can only find in the Hawaiian countryside. Their Kapolei and Kailua Town locations have a sit-down area and are a solid choice for breakfast or lunch, but we prefer to order their sandwiches to-go on our way to the beach.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60652-d660569-Reviews-Kalapawai_Cafe_Deli-Kailua_Oahu_Hawaii.html',
