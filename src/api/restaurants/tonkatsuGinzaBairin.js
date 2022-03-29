@@ -18,7 +18,7 @@ const tonkatsuGinzaBairin = {
       },
     },
   },
-  description: `Tonkatsu Ginza Bairin is not a particularly stylish or fancy restaurant but they make the best katsu we've ever had. This is more traditional Japanese katsu, it's lighter and fresher than the katsu you generally find on the island. You can choose between pork or chicken, and it comes as a dinner combo with miso soup and shredded cabbage. The presentation is beautiful, they even give you a small mortar and pestle to grind your own sesame paste.`,
+  description: `We think Tonkatsu Ginza Bairin makes the best katsu on the island. This is a more traditional Japanese katsu, lighter and fresher than what you generally find on Oahu. You can choose between pork or chicken, and your katsu comes as a dinner combo with miso soup and shredded cabbage. The restaurant interior is modest but the food presentation is beautiful -  you even get a small mortar & pestle to grind your own sesame paste.`,
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d4289929-Reviews-Tonkatsu_Ginza_Bairin-Honolulu_Oahu_Hawaii.html',
   phone: '+1 808-926-8082',

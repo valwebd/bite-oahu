@@ -22,8 +22,8 @@ const kokoHead = {
     },
   },
 
-  description:
-    "We didn't get a chance to visit Koko Head Cafe but we heard such good things about this place we had to add it to the list! You have to make reservations at least a week in advance.",
+  description: `Chef Lee Anne Wong’s breakfast congee, koko moco, and daily dumplings are just some examples of her innovative Pan-Asian cuisine. She’s transforming brunch with a creativity that is worth getting on a plane for - you won’t find anything quite like Koko Head Cafe on the mainland. The cafe’s interior is simple and unpretentious Hawaiian beach style meets small-town diner. You’ll need to reserve your table at least a week in advance.
+    `,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60982-d6476870-Reviews-Koko_Head_Cafe-Honolulu_Oahu_Hawaii.html',

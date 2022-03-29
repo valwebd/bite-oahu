@@ -24,8 +24,8 @@ const kahalaHotel = {
     },
   },
 
-  description:
-    "Kahala Resort is awesome - the food is delicious, the location is gorgeous, and the prices are reasonable. They have several restaurants: Plumeria Beach House, Hoku's, Seaside Grill, The Veranda, and Arancino. The Beach House is probably best for breakfast or lunch, I think there's live music at The Veranda. Kahala Resort is probably the best spot on the island for a romantic date night.",
+  description: `Kahala Resort is where locals go to feel like tourists. The food is delicious, the location is gorgeous, and the prices are reasonable. The resort is home to several restaurants of varying price ranges and food offerings: Plumeria Beach House, Hoku's, Seaside Grill, The Veranda, and Arancino. We recommend The Beach House for breakfast and The Veranda for live music. 
+    `,
 
   web_url:
     'https://www.tripadvisor.com/Hotel_Review-g60982-d114008-Reviews-The_Kahala_Hotel_Resort-Honolulu_Oahu_Hawaii.html',
