@@ -22,7 +22,7 @@ const nalu = {
     },
   },
 
-  description: `Nalu Health Bar and Cafe is arguably the healthiest cafe on the island, and they have many great options for vegan/vegetarian customers. Their juices, smoothies, salads, and sandwiches can be devoured in one of their several locations or taken to go.`,
+  description: `Nalu Health Bar and Cafe is arguably the healthiest cafe on the island and they have many great options for vegan/vegetarian customers. Their juices, smoothies, salads, and sandwiches can be devoured in one of their several locations or taken to go.`,
 
   web_url:
     'https://www.tripadvisor.com/Restaurant_Review-g60647-d20946594-Reviews-Nalu_Health_Bar_Cafe-Haleiwa_Oahu_Hawaii.html',
